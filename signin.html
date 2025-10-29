@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+     <link rel="icon" type="favicon icon/jpg" href="favicon icon.jpg">
+    <style>
+
+        p{
+            text-transform: uppercase;
+            font-family: cursive;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        fieldset{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-direction: column;
+            font-family: 'Special Elite', monospace;;
+            font-size: 20px;
+            border: none;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: none;
+            width: 500px;
+            display: inline-block;
+            height: 300px;
+            
+            
+        }
+        body{
+             display: flex;
+            align-items: center;
+            flex-direction: column;
+          background: linear-gradient(rgba(58, 38, 22, 0.9), rgba(30, 20, 10, 0.95)),
+          url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  background-blend-mode:multiply ;
+        
+        }
+        input[placeholder="username"], input[placeholder="email"], input[placeholder="password"], input[type="date"], select{
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            font-family: 'Special Elite', monospace;
+            cursor: pointer;
+        }
+
+        input[type="submit"]{
+            cursor: pointer;
+        }  
+          a{
+            font-family: 'Special Elite', monospace;
+            font-weight: 500;
+            font-size: 20px;
+            border:none;
+            padding :15px;
+            cursor:pointer;
+            margin-bottom: 30px;
+            border-radius: 1000px;
+            text-decoration: none;
+            color: #000000;
+            background-color: #a0a0af;
+        }    
+    </style>
+</head>
+<body>
+   <p> WOOHOO! You are one step closer to joining us.😎</p>
+   <p>lemme stop yapping and get you signed up.👇🏾👇🏾</p>
+    <form action="mypage.html" >
+     <fieldset>
+          <label for="name">Username:</label>
+          <input type="text"  id="name" name="name" placeholder="username" required>    
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email" required> 
+            <br>    
+            <br>
+            <label for="password">Password:</label>              
+            <input type="password" id="password" name="password" placeholder="password" required> 
+            <br>
+            <br>
+            <label for="date">D.O.B:</label>
+            <input type="date" id="date" name="date" required>
+            <br>    
+            <br>
+            <label for="resp1">How did you hear about us:</label>
+            <select id="resp1" name="resp1">
+                <option value="friend">FRIEND</option>
+                <option value="social media">SOCIAL MEDIA</option>
+                <option value="advert">ADVERT</option>
+                <option value="other">OTHER</option>        
+            </select>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <p>All signed up🤝🏾</p>
+    <a href="index.html" >👈🏾👈🏾HOME</a>
+<p>~KIK(I)'S~</p>
+</body>
+</html>

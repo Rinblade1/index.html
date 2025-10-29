@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon icon.jpg" type="favicon icon/jpg">
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 200vh;
+            background: 
+             linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),
+            url("background.png");
+            background-attachment: fixed;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+             color: #a0a0af;
+             font-family: 'Special Elite', monospace;
+
+        }
+       div p{
+            font-family:cursive ;
+            font-size: 60px;
+           
+        }
+        p{
+             font-family: 'Special Elite', monospace;
+            font-size: 30px;
+        }
+      a{
+            font-family: cursive;
+            font-weight: 500;
+            font-size: 20px;
+            border: 10px solid #a0a0af;
+            padding :5px;
+            cursor:pointer;
+            margin-bottom: 30px;
+            border-radius: 1000px;
+            text-decoration: none;
+            color: #000000;
+            background-color: #a0a0af;
+          
+        } 
+        a:visited{
+            text-decoration: line-through;
+        }
+        
+        a:hover{
+            color: whitesmoke;
+             border: 5px solid #a0a0af;
+            padding :5px;
+            cursor:pointer;
+            font-family: 'Special Elite', monospace;
+            
+        }
+        a:active{
+            color: grey;
+
+        }
+        
+        #menu{
+            display: none;
+        }
+        #menu-button{
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            cursor: pointer;
+
+        }
+        .slide-menu{
+            position: fixed;
+            top: 100px;
+            left: -250px;
+            cursor: pointer;
+            font-family: cursive;
+            font-weight: 500;
+            font-size: 20px;
+            display:flex ;
+            flex-direction: column;
+            align-items: center;
+             background: 
+             linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),
+            url("background.png");
+            background-attachment: fixed;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+             border: none;
+        background: none;
+
+        }
+        #menu:checked+#menu-button+.slide-menu{
+        left: 0px;
+        }
+
+       .one{
+        border: none;
+        background: none;
+        font-size: 30px;
+        font-weight: 100;
+        color: #a0a0af;
+       }
+       .two{
+         border: none;
+        background: none;
+        font-size: 30px;
+        font-weight: 100;
+        color: #a0a0af;
+       }
+       .three{
+         border: none;
+        background: none;
+         font-size: 30px;
+        font-weight: 100;
+        color: #a0a0af;
+       }
+       .four{
+         border: none;
+        background: none;
+        margin-top: 50%;
+         font-size: 30px;
+        font-weight: 100;
+        color: #a0a0af;
+       }
+.five{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 35%;
+}
+
+    </style>
+   
+</head>
+<body>
+     <script src="example.js"></script>
+     <input type="checkbox" id="menu">
+     <label for="menu" id="menu-button" >☰ MENU</label>
+     <nav class="slide-menu">
+       <a  class="one"  href ="signin.html"> Signin</a>
+        <a class="two" href="login.html">Login</a>
+        <a class="three" href="adminlog.html">Run as Admin</a>
+        <a class="four" href="aboutus.html">About us:</a>
+   <p class="five">Contact us: <br> 0711794518</p>
+     </nav>
+   
+    <div><P> SNAP📸. STYLE 🧢. <del>REPEAT</del></P></div>
+    <div> <p>Clothes with character.👌 <br>  Shoes with stories.</p></div> 
+
+    <p>✨ Discover the art of being effortlessly original.</p><br>
+    <p>🛍️ Shop now and step into your unique style journey!</p><br>
+    <a href="discover.html"> 🌍Discover and Shop🛍️</a>
+    <p>KIK(I)'S</p>
+
+</body>
+</html>
